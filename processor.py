@@ -67,6 +67,7 @@ for folder in folders:
         if do_plot:
             plt.show()
     r.append(result)
+    
 plt.clf()
 print(r[0])
 print(r[1])
